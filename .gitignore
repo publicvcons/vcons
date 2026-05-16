@@ -1,0 +1,19 @@
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Media blobs never live in git
+*.mp4
+*.mp3
+*.wav
+*.m4a
+*.mov
+*.mkv
+*.webm
+
+# Local scratch
+/tmp/
+/local/
