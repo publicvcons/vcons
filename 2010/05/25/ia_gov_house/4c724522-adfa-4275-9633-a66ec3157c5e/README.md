@@ -18,7 +18,10 @@ All compute ran locally on the Mac mini. No paid APIs.
 3. **transcribed** — whisper.cpp `large-v3`.
 4. **diarized + merged** — pyannote.audio 3.1 speaker turns merged onto the transcript (4 anonymous speakers).
 5. **analyzed** — `llama3.1:8b-instruct-q4_K_M` via Ollama: summary, topics, entities, neutral editorial summary.
-6. **published** — assembled into this vcon with a `lawful_basis` attachment.
+6. **published** — assembled with the upstream `vcon` library
+   (vcon-dev), including its reference implementation of the IETF
+   lawful-basis extension (`vcon` spec 0.4.0; `extensions:
+   ["lawful_basis"]`; structured `purpose_grants`).
 
 ## Lawful basis
 

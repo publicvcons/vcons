@@ -1,28 +1,61 @@
 {
   "lawful_basis": "public_task",
-  "justification": "The recorded event is a proceeding of the US House of Representatives, a work of the US government in the public domain under 17 USC 105. The source item on the Internet Archive (gov.house.20100525) is additionally dedicated to the public domain under CC0 1.0. Publishing a transparent, verifiable record of federal proceedings is a task carried out in the public interest, supporting government transparency and accountability.",
-  "purpose_grants": [
-    "public_transparency",
-    "research",
-    "journalism"
-  ],
   "expiration": null,
-  "terms_of_service": "https://policy.publicvcons.org/terms",
-  "registry": "https://scitt.publicvcons.org",
-  "proof_mechanisms": "scitt_statement_chain",
-  "citations": [
-    "https://www.law.cornell.edu/uscode/text/17/105",
-    "https://creativecommons.org/publicdomain/zero/1.0/",
-    "https://archive.org/details/gov.house.20100525"
+  "purpose_grants": [
+    {
+      "purpose": "public_transparency",
+      "granted": true,
+      "granted_at": "2026-05-17T00:14:10+00:00"
+    },
+    {
+      "purpose": "research",
+      "granted": true,
+      "granted_at": "2026-05-17T00:14:10+00:00"
+    },
+    {
+      "purpose": "journalism",
+      "granted": true,
+      "granted_at": "2026-05-17T00:14:10+00:00"
+    }
   ],
-  "source": {
-    "archive": "Internet_Archive",
-    "archive_identifier": "gov.house.20100525",
-    "source_url": "https://archive.org/details/gov.house.20100525",
-    "source_media_url": "https://archive.org/download/gov.house.20100525/gov.house.20100525_512kb.mp4",
-    "source_media_sha256": "922b7af4c64e337f0db7dd301c2de1aa56358bb7a09c3326c15f3cdc61b79c61",
-    "obtained_at": "2026-05-17T00:14:10.000Z",
-    "segment_start_s": 120.0,
-    "segment_duration_s": 1500.0
+  "terms_of_service": "https://policy.publicvcons.org/terms",
+  "registry": {
+    "type": "scitt",
+    "url": "https://scitt.publicvcons.org"
+  },
+  "proof_mechanisms": [
+    {
+      "proof_type": "cryptographic_signature",
+      "timestamp": "2026-05-17T00:14:10+00:00",
+      "proof_data": {
+        "mechanism": "scitt_statement_chain",
+        "registry": "https://scitt.publicvcons.org",
+        "stages": [
+          "imported",
+          "normalized",
+          "transcribed",
+          "analyzed",
+          "published"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "justification": "The recorded event is a proceeding of the US House of Representatives, a work of the US government in the public domain under 17 USC 105. The source item on the Internet Archive (gov.house.20100525) is additionally dedicated to the public domain under CC0 1.0. Publishing a transparent, verifiable record of federal proceedings is a task carried out in the public interest, supporting government transparency and accountability.",
+    "citations": [
+      "https://www.law.cornell.edu/uscode/text/17/105",
+      "https://creativecommons.org/publicdomain/zero/1.0/",
+      "https://archive.org/details/gov.house.20100525"
+    ],
+    "source": {
+      "archive": "Internet_Archive",
+      "archive_identifier": "gov.house.20100525",
+      "source_url": "https://archive.org/details/gov.house.20100525",
+      "source_media_url": "https://archive.org/download/gov.house.20100525/gov.house.20100525_512kb.mp4",
+      "source_media_sha256": "922b7af4c64e337f0db7dd301c2de1aa56358bb7a09c3326c15f3cdc61b79c61",
+      "obtained_at": "2026-05-17T00:14:10.000Z",
+      "segment_start_s": 120.0,
+      "segment_duration_s": 1500.0
+    }
   }
 }
