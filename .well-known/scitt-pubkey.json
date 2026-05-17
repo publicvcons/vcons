@@ -1,0 +1,7 @@
+{
+  "kty": "OKP",
+  "crv": "Ed25519",
+  "x": "w2LNKkTxaQb4qJfBkS43mjyBmPxuLJ4CDneWYmBllvw",
+  "issuer": "did:web:scitt.publicvcons.org",
+  "use": "lifecycle-statement-verification"
+}
