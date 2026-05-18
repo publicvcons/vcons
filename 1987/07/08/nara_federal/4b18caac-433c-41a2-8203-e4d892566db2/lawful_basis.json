@@ -1,0 +1,61 @@
+{
+  "lawful_basis": "public_task",
+  "expiration": null,
+  "purpose_grants": [
+    {
+      "purpose": "public_transparency",
+      "granted": true,
+      "granted_at": "2026-05-18T13:24:05+00:00"
+    },
+    {
+      "purpose": "research",
+      "granted": true,
+      "granted_at": "2026-05-18T13:24:05+00:00"
+    },
+    {
+      "purpose": "journalism",
+      "granted": true,
+      "granted_at": "2026-05-18T13:24:05+00:00"
+    }
+  ],
+  "terms_of_service": "https://policy.publicvcons.org/terms",
+  "registry": {
+    "type": "scitt",
+    "url": "https://scitt.publicvcons.org"
+  },
+  "proof_mechanisms": [
+    {
+      "proof_type": "cryptographic_signature",
+      "timestamp": "2026-05-18T13:24:05+00:00",
+      "proof_data": {
+        "mechanism": "scitt_statement_chain",
+        "registry": "https://scitt.publicvcons.org",
+        "stages": [
+          "imported",
+          "normalized",
+          "transcribed",
+          "analyzed",
+          "published"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "justification": "The recorded event is a proceeding of the US federal government held and digitised by the National Archives and Records Administration (NARA). Works of the US government are in the public domain under 17 USC 105; the NARA item on the Internet Archive is additionally dedicated to the public domain (CC0). Publishing a transparent, verifiable record of federal proceedings is a task carried out in the public interest. The NARA ARC/Catalog identifier is recorded per item for citation.",
+    "citations": [
+      "https://www.law.cornell.edu/uscode/text/17/105",
+      "https://creativecommons.org/publicdomain/zero/1.0/",
+      "https://catalog.archives.gov/"
+    ],
+    "source": {
+      "archive": "NARA",
+      "archive_identifier": "gov.archives.arc.11161",
+      "source_url": "https://archive.org/details/gov.archives.arc.11161",
+      "source_media_url": "https://archive.org/download/gov.archives.arc.11161/gov.archives.arc.11161_512kb.mp4",
+      "source_media_sha256": "4af624ac91bab4063c63c0114f43a7b3478618b010974cb369dd0cb68d90d472",
+      "obtained_at": "2026-05-18T13:24:05.000Z",
+      "segment_start_s": 0.0,
+      "segment_duration_s": 1500.0
+    }
+  }
+}

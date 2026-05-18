@@ -1,6 +1,6 @@
 {
   "generated_from": "vcons",
-  "count": 1,
+  "count": 2,
   "vcons": [
     {
       "uuid": "4c724522-adfa-4275-9633-a66ec3157c5e",
@@ -19,17 +19,39 @@
       "neutral_editorial_summary": "The discussion focuses on making primary legal materials accessible to all Americans, with concerns about privacy and sensitive information. The concept of 'law.gov' is mentioned as a potential solution. The Library of Congress plays a key role in decision-making regarding information sharing.",
       "lawful_basis": "public_task",
       "has_receipts": true
+    },
+    {
+      "uuid": "4b18caac-433c-41a2-8203-e4d892566db2",
+      "path": "1987/07/08/nara_federal/4b18caac-433c-41a2-8203-e4d892566db2",
+      "subject": "Iran-Contra Hearings (July 8, 1987)",
+      "created_at": "1987-07-08T00:00:00+00:00",
+      "source": "nara_federal",
+      "year": "1987",
+      "parties": 3,
+      "segments": 793,
+      "topics": [
+        "Iran-Contra Affair"
+      ],
+      "neutral_editorial_summary": "The testimony suggests that there was internal friction within the bureaucracy about General Secord. There is a reference to 'our suspicions' regarding General Secord, which is not fully explained.",
+      "lawful_basis": "public_task",
+      "has_receipts": true
     }
   ],
   "collections": {
     "by_source": {
       "ia_gov_house": [
         "4c724522-adfa-4275-9633-a66ec3157c5e"
+      ],
+      "nara_federal": [
+        "4b18caac-433c-41a2-8203-e4d892566db2"
       ]
     },
     "by_year": {
       "2010": [
         "4c724522-adfa-4275-9633-a66ec3157c5e"
+      ],
+      "1987": [
+        "4b18caac-433c-41a2-8203-e4d892566db2"
       ]
     }
   }

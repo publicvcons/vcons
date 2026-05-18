@@ -1,0 +1,18 @@
+{
+  "protected": {
+    "alg": "Ed25519",
+    "kid": "w2LNKkTxaQb4qJfBkS43mjyBmPxuLJ4CDneWYmBllvw"
+  },
+  "payload": {
+    "alg": "Ed25519",
+    "iat": 1779111483,
+    "issuer": "did:web:scitt.publicvcons.org",
+    "lawful_basis_sha256": "6e8f7a260040c677a91ade60541e68f113a1e485049af5b0529c777946165148",
+    "registry": "https://scitt.publicvcons.org",
+    "seq": 3,
+    "stage": "transcribed",
+    "subject": "urn:vcon:4b18caac-433c-41a2-8203-e4d892566db2",
+    "vcon_sha256": "dcd26a145498afc8856f2c30e6d03dd0c3cb8b77598ad6d3f6cb3183a9e20dbc"
+  },
+  "signature": "ETJjrrEPvFerc98MvRHRWCHG92bVdNXh16og8uRDCfA4CG2Gg8WUoc0z3EwFxQC9tq1z1T_NLaT3iH5lU0DSCA"
+}

@@ -1,0 +1,19 @@
+{
+  "receipt": {
+    "issuer": "did:web:scitt.publicvcons.org",
+    "entry_id": 6,
+    "leaf_index": 6,
+    "tree_size": 7,
+    "leaf_hash": "3297IrU0zIYKqQQg-lF0zOhaEufK0d6yFhTtuvGJU7k",
+    "root": "YyDgz53n6mh207FLPHPV6dq4OVO50GSGN13ekjSM44M",
+    "subject": "urn:vcon:4b18caac-433c-41a2-8203-e4d892566db2",
+    "stage": "normalized",
+    "alg": "Ed25519"
+  },
+  "inclusion_proof": [
+    "Wyqx89smz0cvCA425Pv4jCQULg8pIWtpZycx2m-MpWU",
+    "WARvTtGZgQf-d19RE5i18oC6x0Zr5bq9XhyWX-ioh4c"
+  ],
+  "service_signature": "Nqaxrvlg0r36wNS0InacJaaPoBTA6jKVBydKOkoHTLaQCKJ7s93Y7o3gqCxsJJw_H_7jiHQAlmxJtNWY955-Cw",
+  "service_kid": "ykEkZAlxxbc1j-iXAIY69mbgVn82MkDgf-dcFOrNNFc"
+}
