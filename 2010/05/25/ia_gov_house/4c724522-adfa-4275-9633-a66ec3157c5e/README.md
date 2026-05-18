@@ -32,18 +32,26 @@ See `lawful_basis.json` (also inlined in `vcon.json`).
 
 ## Verifying the lifecycle chain
 
-The `scitt/` directory holds five ed25519-signed lifecycle statements
-(`imported → normalized → transcribed → analyzed → published`), each
-binding the vcon content hash and the lawful-basis hash.
+The `scitt/` directory holds, for each lifecycle stage
+(`imported → normalized → transcribed → analyzed → published`):
 
-> Phase 0 note: these statements are signed locally with the project key.
-> The public key is at `/.well-known/scitt-pubkey.json` in this repo.
-> When the SCITT transparency service at scitt.publicvcons.org is live
-> (Phase 1) the same statements will be countersigned by the ledger and
-> receipts added here.
+- `NN_stage.scitt.json` — the ed25519-signed lifecycle statement,
+  binding the vcon content hash and the lawful-basis hash. Issuer
+  public key: `/.well-known/scitt-pubkey.json`.
+- `NN_stage.scitt-receipt.json` — the transparency **receipt**: an
+  RFC 9162-style Merkle inclusion proof into the SCITT service's
+  append-only log, countersigned by the service key. Service public
+  key: `/.well-known/scitt-transparency-configuration.json`.
 
-To verify:
+So the integrity chain is: vcon hash → signed statement → logged leaf →
+Merkle root → service countersignature. Any tamper to any link fails
+verification.
+
+To verify (fully offline — no network, no service needed):
 
 ```
-python conserver/pipeline/scitt_sign.py verify --receipts scitt/
+python scitt/cli/pvcons_scitt.py verify --receipts scitt/
 ```
+
+Statement signatures alone (no receipts) can also be checked with
+`python conserver/pipeline/scitt_sign.py verify --receipts scitt/`.
