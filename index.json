@@ -1,7 +1,24 @@
 {
   "generated_from": "vcons",
-  "count": 2,
+  "count": 3,
   "vcons": [
+    {
+      "uuid": "1517428c-6053-42c3-9655-b64d541f276a",
+      "path": "2025/02/27/house_committee_youtube/1517428c-6053-42c3-9655-b64d541f276a",
+      "subject": "House Energy & Commerce: Full Committee Markup, Authorization and Oversight Plan for the 119th Congress (Part 2)",
+      "created_at": "2025-02-27T00:00:00+00:00",
+      "source": "house_committee_youtube",
+      "year": "2025",
+      "parties": 11,
+      "segments": 175,
+      "topics": [
+        "government oversight",
+        "First Amendment"
+      ],
+      "neutral_editorial_summary": "A congressional committee held a discussion on an amendment related to government oversight and the First Amendment. The debate was characterized by accusations of hypocrisy from both sides, with some members arguing that the majority Republicans have not taken action on these issues in the past.",
+      "lawful_basis": "public_task",
+      "has_receipts": true
+    },
     {
       "uuid": "4c724522-adfa-4275-9633-a66ec3157c5e",
       "path": "2010/05/25/ia_gov_house/4c724522-adfa-4275-9633-a66ec3157c5e",
@@ -39,6 +56,9 @@
   ],
   "collections": {
     "by_source": {
+      "house_committee_youtube": [
+        "1517428c-6053-42c3-9655-b64d541f276a"
+      ],
       "ia_gov_house": [
         "4c724522-adfa-4275-9633-a66ec3157c5e"
       ],
@@ -47,6 +67,9 @@
       ]
     },
     "by_year": {
+      "2025": [
+        "1517428c-6053-42c3-9655-b64d541f276a"
+      ],
       "2010": [
         "4c724522-adfa-4275-9633-a66ec3157c5e"
       ],
