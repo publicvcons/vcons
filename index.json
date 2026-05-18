@@ -1,0 +1,36 @@
+{
+  "generated_from": "vcons",
+  "count": 1,
+  "vcons": [
+    {
+      "uuid": "4c724522-adfa-4275-9633-a66ec3157c5e",
+      "path": "2010/05/25/ia_gov_house/4c724522-adfa-4275-9633-a66ec3157c5e",
+      "subject": "House of Representatives Law.Gov Event (May 25, 2010)",
+      "created_at": "2010-05-25T00:00:00+00:00",
+      "source": "ia_gov_house",
+      "year": "2010",
+      "parties": 4,
+      "segments": 697,
+      "topics": [
+        "Accessibility",
+        "Privacy",
+        "Law.gov"
+      ],
+      "neutral_editorial_summary": "The discussion focuses on making primary legal materials accessible to all Americans, with concerns about privacy and sensitive information. The concept of 'law.gov' is mentioned as a potential solution. The Library of Congress plays a key role in decision-making regarding information sharing.",
+      "lawful_basis": "public_task",
+      "has_receipts": true
+    }
+  ],
+  "collections": {
+    "by_source": {
+      "ia_gov_house": [
+        "4c724522-adfa-4275-9633-a66ec3157c5e"
+      ]
+    },
+    "by_year": {
+      "2010": [
+        "4c724522-adfa-4275-9633-a66ec3157c5e"
+      ]
+    }
+  }
+}
